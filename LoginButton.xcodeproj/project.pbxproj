@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A90CF8A21EBB05BB0075FA8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8A11EBB05BB0075FA8F /* main.m */; };
+		A90CF8A51EBB05BB0075FA8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8A41EBB05BB0075FA8F /* AppDelegate.m */; };
+		A90CF8A81EBB05BB0075FA8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8A71EBB05BB0075FA8F /* ViewController.m */; };
+		A90CF8AB1EBB05BB0075FA8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90CF8A91EBB05BB0075FA8F /* Main.storyboard */; };
+		A90CF8AD1EBB05BB0075FA8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90CF8AC1EBB05BB0075FA8F /* Assets.xcassets */; };
+		A90CF8B01EBB05BB0075FA8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90CF8AE1EBB05BB0075FA8F /* LaunchScreen.storyboard */; };
+		A90CF8BB1EBB05BB0075FA8F /* LoginButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8BA1EBB05BB0075FA8F /* LoginButtonTests.m */; };
+		A90CF8C61EBB05BB0075FA8F /* LoginButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8C51EBB05BB0075FA8F /* LoginButtonUITests.m */; };
+		A90CF8D51EBB05EA0075FA8F /* LoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8D41EBB05EA0075FA8F /* LoginButton.m */; };
+		A90CF8D91EBB22F40075FA8F /* icon_waiting.png in Resources */ = {isa = PBXBuildFile; fileRef = A90CF8D81EBB22F40075FA8F /* icon_waiting.png */; };
+		A90CF8F41EBB26770075FA8F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8DC1EBB26770075FA8F /* MASCompositeConstraint.m */; };
+		A90CF8F51EBB26770075FA8F /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8DF1EBB26770075FA8F /* MASConstraint.m */; };
+		A90CF8F61EBB26770075FA8F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8E11EBB26770075FA8F /* MASConstraintMaker.m */; };
+		A90CF8F71EBB26770075FA8F /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8E31EBB26770075FA8F /* MASLayoutConstraint.m */; };
+		A90CF8F81EBB26770075FA8F /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8E71EBB26770075FA8F /* MASViewAttribute.m */; };
+		A90CF8F91EBB26770075FA8F /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8E91EBB26770075FA8F /* MASViewConstraint.m */; };
+		A90CF8FA1EBB26770075FA8F /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8EB1EBB26770075FA8F /* NSArray+MASAdditions.m */; };
+		A90CF8FB1EBB26770075FA8F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8EE1EBB26770075FA8F /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		A90CF8FC1EBB26770075FA8F /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8F01EBB26770075FA8F /* View+MASAdditions.m */; };
+		A90CF8FD1EBB26770075FA8F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CF8F31EBB26770075FA8F /* ViewController+MASAdditions.m */; };
+		A90DDE5E1EBC08AB00FD3B46 /* UIColor+NotRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = A90DDE5D1EBC08AB00FD3B46 /* UIColor+NotRGB.m */; };
+		A90DDE611EBC49DC00FD3B46 /* JFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A90DDE601EBC49DC00FD3B46 /* JFButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A90CF8B71EBB05BB0075FA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90CF8951EBB05BB0075FA8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A90CF89C1EBB05BB0075FA8F;
+			remoteInfo = LoginButton;
+		};
+		A90CF8C21EBB05BB0075FA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90CF8951EBB05BB0075FA8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A90CF89C1EBB05BB0075FA8F;
+			remoteInfo = LoginButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A90CF89D1EBB05BB0075FA8F /* LoginButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90CF8A11EBB05BB0075FA8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A90CF8A31EBB05BB0075FA8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A90CF8A41EBB05BB0075FA8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A90CF8A61EBB05BB0075FA8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A90CF8A71EBB05BB0075FA8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A90CF8AA1EBB05BB0075FA8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A90CF8AC1EBB05BB0075FA8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A90CF8AF1EBB05BB0075FA8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A90CF8B11EBB05BB0075FA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90CF8B61EBB05BB0075FA8F /* LoginButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90CF8BA1EBB05BB0075FA8F /* LoginButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginButtonTests.m; sourceTree = "<group>"; };
+		A90CF8BC1EBB05BB0075FA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90CF8C11EBB05BB0075FA8F /* LoginButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90CF8C51EBB05BB0075FA8F /* LoginButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginButtonUITests.m; sourceTree = "<group>"; };
+		A90CF8C71EBB05BB0075FA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90CF8D31EBB05EA0075FA8F /* LoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginButton.h; sourceTree = "<group>"; };
+		A90CF8D41EBB05EA0075FA8F /* LoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginButton.m; sourceTree = "<group>"; };
+		A90CF8D81EBB22F40075FA8F /* icon_waiting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_waiting.png; sourceTree = "<group>"; };
+		A90CF8DB1EBB26770075FA8F /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		A90CF8DC1EBB26770075FA8F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		A90CF8DD1EBB26770075FA8F /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		A90CF8DE1EBB26770075FA8F /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		A90CF8DF1EBB26770075FA8F /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		A90CF8E01EBB26770075FA8F /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		A90CF8E11EBB26770075FA8F /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		A90CF8E21EBB26770075FA8F /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		A90CF8E31EBB26770075FA8F /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		A90CF8E41EBB26770075FA8F /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		A90CF8E51EBB26770075FA8F /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		A90CF8E61EBB26770075FA8F /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		A90CF8E71EBB26770075FA8F /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		A90CF8E81EBB26770075FA8F /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		A90CF8E91EBB26770075FA8F /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		A90CF8EA1EBB26770075FA8F /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		A90CF8EB1EBB26770075FA8F /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		A90CF8EC1EBB26770075FA8F /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		A90CF8ED1EBB26770075FA8F /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		A90CF8EE1EBB26770075FA8F /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		A90CF8EF1EBB26770075FA8F /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		A90CF8F01EBB26770075FA8F /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		A90CF8F11EBB26770075FA8F /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		A90CF8F21EBB26770075FA8F /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		A90CF8F31EBB26770075FA8F /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		A90DDE5C1EBC08AB00FD3B46 /* UIColor+NotRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NotRGB.h"; sourceTree = "<group>"; };
+		A90DDE5D1EBC08AB00FD3B46 /* UIColor+NotRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NotRGB.m"; sourceTree = "<group>"; };
+		A90DDE5F1EBC49DC00FD3B46 /* JFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFButton.h; sourceTree = "<group>"; };
+		A90DDE601EBC49DC00FD3B46 /* JFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A90CF89A1EBB05BB0075FA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90CF8B31EBB05BB0075FA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90CF8BE1EBB05BB0075FA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A90CF8941EBB05BB0075FA8F = {
+			isa = PBXGroup;
+			children = (
+				A90CF89F1EBB05BB0075FA8F /* LoginButton */,
+				A90CF8B91EBB05BB0075FA8F /* LoginButtonTests */,
+				A90CF8C41EBB05BB0075FA8F /* LoginButtonUITests */,
+				A90CF89E1EBB05BB0075FA8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A90CF89E1EBB05BB0075FA8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A90CF89D1EBB05BB0075FA8F /* LoginButton.app */,
+				A90CF8B61EBB05BB0075FA8F /* LoginButtonTests.xctest */,
+				A90CF8C11EBB05BB0075FA8F /* LoginButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A90CF89F1EBB05BB0075FA8F /* LoginButton */ = {
+			isa = PBXGroup;
+			children = (
+				A90CF8A31EBB05BB0075FA8F /* AppDelegate.h */,
+				A90CF8DA1EBB26770075FA8F /* Masonry */,
+				A90CF8A41EBB05BB0075FA8F /* AppDelegate.m */,
+				A90CF8A61EBB05BB0075FA8F /* ViewController.h */,
+				A90CF8D81EBB22F40075FA8F /* icon_waiting.png */,
+				A90CF8A71EBB05BB0075FA8F /* ViewController.m */,
+				A90CF8A91EBB05BB0075FA8F /* Main.storyboard */,
+				A90DDE5F1EBC49DC00FD3B46 /* JFButton.h */,
+				A90DDE601EBC49DC00FD3B46 /* JFButton.m */,
+				A90CF8AC1EBB05BB0075FA8F /* Assets.xcassets */,
+				A90CF8AE1EBB05BB0075FA8F /* LaunchScreen.storyboard */,
+				A90CF8B11EBB05BB0075FA8F /* Info.plist */,
+				A90CF8A01EBB05BB0075FA8F /* Supporting Files */,
+				A90CF8D31EBB05EA0075FA8F /* LoginButton.h */,
+				A90CF8D41EBB05EA0075FA8F /* LoginButton.m */,
+				A90DDE5C1EBC08AB00FD3B46 /* UIColor+NotRGB.h */,
+				A90DDE5D1EBC08AB00FD3B46 /* UIColor+NotRGB.m */,
+			);
+			path = LoginButton;
+			sourceTree = "<group>";
+		};
+		A90CF8A01EBB05BB0075FA8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A90CF8A11EBB05BB0075FA8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A90CF8B91EBB05BB0075FA8F /* LoginButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A90CF8BA1EBB05BB0075FA8F /* LoginButtonTests.m */,
+				A90CF8BC1EBB05BB0075FA8F /* Info.plist */,
+			);
+			path = LoginButtonTests;
+			sourceTree = "<group>";
+		};
+		A90CF8C41EBB05BB0075FA8F /* LoginButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A90CF8C51EBB05BB0075FA8F /* LoginButtonUITests.m */,
+				A90CF8C71EBB05BB0075FA8F /* Info.plist */,
+			);
+			path = LoginButtonUITests;
+			sourceTree = "<group>";
+		};
+		A90CF8DA1EBB26770075FA8F /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				A90CF8DB1EBB26770075FA8F /* MASCompositeConstraint.h */,
+				A90CF8DC1EBB26770075FA8F /* MASCompositeConstraint.m */,
+				A90CF8DD1EBB26770075FA8F /* MASConstraint+Private.h */,
+				A90CF8DE1EBB26770075FA8F /* MASConstraint.h */,
+				A90CF8DF1EBB26770075FA8F /* MASConstraint.m */,
+				A90CF8E01EBB26770075FA8F /* MASConstraintMaker.h */,
+				A90CF8E11EBB26770075FA8F /* MASConstraintMaker.m */,
+				A90CF8E21EBB26770075FA8F /* MASLayoutConstraint.h */,
+				A90CF8E31EBB26770075FA8F /* MASLayoutConstraint.m */,
+				A90CF8E41EBB26770075FA8F /* Masonry.h */,
+				A90CF8E51EBB26770075FA8F /* MASUtilities.h */,
+				A90CF8E61EBB26770075FA8F /* MASViewAttribute.h */,
+				A90CF8E71EBB26770075FA8F /* MASViewAttribute.m */,
+				A90CF8E81EBB26770075FA8F /* MASViewConstraint.h */,
+				A90CF8E91EBB26770075FA8F /* MASViewConstraint.m */,
+				A90CF8EA1EBB26770075FA8F /* NSArray+MASAdditions.h */,
+				A90CF8EB1EBB26770075FA8F /* NSArray+MASAdditions.m */,
+				A90CF8EC1EBB26770075FA8F /* NSArray+MASShorthandAdditions.h */,
+				A90CF8ED1EBB26770075FA8F /* NSLayoutConstraint+MASDebugAdditions.h */,
+				A90CF8EE1EBB26770075FA8F /* NSLayoutConstraint+MASDebugAdditions.m */,
+				A90CF8EF1EBB26770075FA8F /* View+MASAdditions.h */,
+				A90CF8F01EBB26770075FA8F /* View+MASAdditions.m */,
+				A90CF8F11EBB26770075FA8F /* View+MASShorthandAdditions.h */,
+				A90CF8F21EBB26770075FA8F /* ViewController+MASAdditions.h */,
+				A90CF8F31EBB26770075FA8F /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A90CF89C1EBB05BB0075FA8F /* LoginButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90CF8CA1EBB05BB0075FA8F /* Build configuration list for PBXNativeTarget "LoginButton" */;
+			buildPhases = (
+				A90CF8991EBB05BB0075FA8F /* Sources */,
+				A90CF89A1EBB05BB0075FA8F /* Frameworks */,
+				A90CF89B1EBB05BB0075FA8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginButton;
+			productName = LoginButton;
+			productReference = A90CF89D1EBB05BB0075FA8F /* LoginButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A90CF8B51EBB05BB0075FA8F /* LoginButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90CF8CD1EBB05BB0075FA8F /* Build configuration list for PBXNativeTarget "LoginButtonTests" */;
+			buildPhases = (
+				A90CF8B21EBB05BB0075FA8F /* Sources */,
+				A90CF8B31EBB05BB0075FA8F /* Frameworks */,
+				A90CF8B41EBB05BB0075FA8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A90CF8B81EBB05BB0075FA8F /* PBXTargetDependency */,
+			);
+			name = LoginButtonTests;
+			productName = LoginButtonTests;
+			productReference = A90CF8B61EBB05BB0075FA8F /* LoginButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A90CF8C01EBB05BB0075FA8F /* LoginButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90CF8D01EBB05BB0075FA8F /* Build configuration list for PBXNativeTarget "LoginButtonUITests" */;
+			buildPhases = (
+				A90CF8BD1EBB05BB0075FA8F /* Sources */,
+				A90CF8BE1EBB05BB0075FA8F /* Frameworks */,
+				A90CF8BF1EBB05BB0075FA8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A90CF8C31EBB05BB0075FA8F /* PBXTargetDependency */,
+			);
+			name = LoginButtonUITests;
+			productName = LoginButtonUITests;
+			productReference = A90CF8C11EBB05BB0075FA8F /* LoginButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90CF8951EBB05BB0075FA8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Bill;
+				TargetAttributes = {
+					A90CF89C1EBB05BB0075FA8F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+					A90CF8B51EBB05BB0075FA8F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A90CF89C1EBB05BB0075FA8F;
+					};
+					A90CF8C01EBB05BB0075FA8F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A90CF89C1EBB05BB0075FA8F;
+					};
+				};
+			};
+			buildConfigurationList = A90CF8981EBB05BB0075FA8F /* Build configuration list for PBXProject "LoginButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A90CF8941EBB05BB0075FA8F;
+			productRefGroup = A90CF89E1EBB05BB0075FA8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A90CF89C1EBB05BB0075FA8F /* LoginButton */,
+				A90CF8B51EBB05BB0075FA8F /* LoginButtonTests */,
+				A90CF8C01EBB05BB0075FA8F /* LoginButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A90CF89B1EBB05BB0075FA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90CF8B01EBB05BB0075FA8F /* LaunchScreen.storyboard in Resources */,
+				A90CF8AD1EBB05BB0075FA8F /* Assets.xcassets in Resources */,
+				A90CF8D91EBB22F40075FA8F /* icon_waiting.png in Resources */,
+				A90CF8AB1EBB05BB0075FA8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90CF8B41EBB05BB0075FA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90CF8BF1EBB05BB0075FA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A90CF8991EBB05BB0075FA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90CF8F61EBB26770075FA8F /* MASConstraintMaker.m in Sources */,
+				A90DDE611EBC49DC00FD3B46 /* JFButton.m in Sources */,
+				A90CF8A81EBB05BB0075FA8F /* ViewController.m in Sources */,
+				A90CF8D51EBB05EA0075FA8F /* LoginButton.m in Sources */,
+				A90CF8F51EBB26770075FA8F /* MASConstraint.m in Sources */,
+				A90CF8FD1EBB26770075FA8F /* ViewController+MASAdditions.m in Sources */,
+				A90CF8F71EBB26770075FA8F /* MASLayoutConstraint.m in Sources */,
+				A90CF8FA1EBB26770075FA8F /* NSArray+MASAdditions.m in Sources */,
+				A90DDE5E1EBC08AB00FD3B46 /* UIColor+NotRGB.m in Sources */,
+				A90CF8F91EBB26770075FA8F /* MASViewConstraint.m in Sources */,
+				A90CF8F81EBB26770075FA8F /* MASViewAttribute.m in Sources */,
+				A90CF8FC1EBB26770075FA8F /* View+MASAdditions.m in Sources */,
+				A90CF8A51EBB05BB0075FA8F /* AppDelegate.m in Sources */,
+				A90CF8A21EBB05BB0075FA8F /* main.m in Sources */,
+				A90CF8F41EBB26770075FA8F /* MASCompositeConstraint.m in Sources */,
+				A90CF8FB1EBB26770075FA8F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90CF8B21EBB05BB0075FA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90CF8BB1EBB05BB0075FA8F /* LoginButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90CF8BD1EBB05BB0075FA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90CF8C61EBB05BB0075FA8F /* LoginButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A90CF8B81EBB05BB0075FA8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A90CF89C1EBB05BB0075FA8F /* LoginButton */;
+			targetProxy = A90CF8B71EBB05BB0075FA8F /* PBXContainerItemProxy */;
+		};
+		A90CF8C31EBB05BB0075FA8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A90CF89C1EBB05BB0075FA8F /* LoginButton */;
+			targetProxy = A90CF8C21EBB05BB0075FA8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A90CF8A91EBB05BB0075FA8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90CF8AA1EBB05BB0075FA8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A90CF8AE1EBB05BB0075FA8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90CF8AF1EBB05BB0075FA8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A90CF8C81EBB05BB0075FA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A90CF8C91EBB05BB0075FA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A90CF8CB1EBB05BB0075FA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LoginButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bill.LoginButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		A90CF8CC1EBB05BB0075FA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LoginButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bill.LoginButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		A90CF8CE1EBB05BB0075FA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoginButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bill.LoginButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginButton.app/LoginButton";
+			};
+			name = Debug;
+		};
+		A90CF8CF1EBB05BB0075FA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoginButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bill.LoginButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginButton.app/LoginButton";
+			};
+			name = Release;
+		};
+		A90CF8D11EBB05BB0075FA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoginButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bill.LoginButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoginButton;
+			};
+			name = Debug;
+		};
+		A90CF8D21EBB05BB0075FA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoginButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bill.LoginButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoginButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90CF8981EBB05BB0075FA8F /* Build configuration list for PBXProject "LoginButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90CF8C81EBB05BB0075FA8F /* Debug */,
+				A90CF8C91EBB05BB0075FA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90CF8CA1EBB05BB0075FA8F /* Build configuration list for PBXNativeTarget "LoginButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90CF8CB1EBB05BB0075FA8F /* Debug */,
+				A90CF8CC1EBB05BB0075FA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90CF8CD1EBB05BB0075FA8F /* Build configuration list for PBXNativeTarget "LoginButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90CF8CE1EBB05BB0075FA8F /* Debug */,
+				A90CF8CF1EBB05BB0075FA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90CF8D01EBB05BB0075FA8F /* Build configuration list for PBXNativeTarget "LoginButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90CF8D11EBB05BB0075FA8F /* Debug */,
+				A90CF8D21EBB05BB0075FA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90CF8951EBB05BB0075FA8F /* Project object */;
+}
